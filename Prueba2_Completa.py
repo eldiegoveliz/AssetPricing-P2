@@ -385,6 +385,34 @@ cuánto corresponde a cada causa ni demostrar significancia estadística de la d
 """))
 
 # %%
+display(Markdown(r"""
+## 2.c. Recomendación al cliente y límites de la conclusión
+
+**Con esta evidencia y sin más información del cliente, recomendaría 1/N como punto de partida**, por su
+simplicidad, transparencia y ausencia de ventas cortas. Además, durante los 60 meses de evaluación tuvo
+una volatilidad ligeramente menor que la GMV estimada en la primera mitad. Evita depender de la estimación
+de una matriz de covarianzas para decidir los pesos, aunque sigue necesitando rebalanceo y tiene riesgo de mercado.
+
+La decisión real debe considerar el objetivo del cliente, su horizonte y tolerancia al riesgo, límites de
+posición, capacidad de vender corto, costos, liquidez e impuestos. La comparación no demuestra que las
+comisiones efectivas de una estrategia sean menores: no se han calculado costos ni rotación. Si su objetivo
+fuera minimizar riesgo sujeto a restricciones reales, habría que especificarlas y evaluar esa nueva solución.
+
+**Con estos resultados no puedo afirmar**:
+
+- Que 1/N tendrá siempre menos riesgo que GMV o que será superior en otra muestra o en el futuro.
+- Que 1/N tendrá mayor rentabilidad, Sharpe o utilidad para el cliente: aquí se compara volatilidad y no
+  se utiliza una tasa libre de riesgo ni se estima una función de utilidad.
+- Que la diferencia de volatilidad de evaluación sea estadísticamente significativa: no se hizo ese contraste.
+- Que GMV sea inútil o que MPT sea falsa. La solución sí minimiza la varianza de la primera mitad;
+  lo que falla en esta evaluación es trasladar automáticamente esa ventaja a covarianzas futuras desconocidas.
+- Que los resultados sean netos de costos, que eliminen el riesgo de mercado o que una sola división 60/60
+  baste para establecer superioridad general. Harían falta más ventanas de evaluación y supuestos de implementación.
+
+Esta es una recomendación condicionada por la evidencia presentada; no una garantía de desempeño futuro.
+"""))
+
+# %%
 import json
 import zipfile
 

@@ -4,9 +4,9 @@
 
 [Abrir Prueba2_Completa.ipynb en Google Colab](https://colab.research.google.com/github/eldiegoveliz/AssetPricing-P2/blob/main/Prueba2_Completa.ipynb)
 
-`Prueba2_Completa.ipynb` reúne ambas preguntas con cálculos, tablas, gráficos y comentarios. Sus 15 celdas de código se ejecutaron desde un kernel nuevo sin errores. `Prueba2_Completa.py` contiene el mismo código separado por marcadores de celda `# %%`.
+`Prueba2_Completa.ipynb` contiene únicamente los prompts originales en celdas de texto y las celdas de código con respuestas, tablas y gráficos. Los enunciados están identificados como **PROMPT #1** y **PROMPT #2**, y se conserva la solicitud posterior de respuestas como seguimiento. Sus 16 celdas de código se ejecutaron desde un kernel nuevo sin errores. `Prueba2_Completa.py` contiene el mismo código separado por marcadores de celda `# %%`.
 
-En Colab, selecciona **Entorno de ejecución → Ejecutar todo**, revisa el nombre y las interpretaciones y guarda una copia con las salidas para entregar. El cuaderno exporta 17 tablas y los parámetros utilizados en `resultados_prueba2.zip`.
+En Colab, selecciona **Entorno de ejecución → Ejecutar todo**, revisa las respuestas y guarda una copia con las salidas para entregar. El cuaderno exporta 17 tablas y los parámetros utilizados en `resultados_prueba2.zip`.
 
 ## Datos y convenciones
 
